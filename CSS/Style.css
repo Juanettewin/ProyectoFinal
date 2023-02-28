@@ -1,63 +1,203 @@
 *{
-  margin: 0px;
-  padding: 0px;
- 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
 }
-
-
-.boximgfondo{
-
+.carrusel{
+    margin-top: -20%;
+    max-width: 40%;
 }
+.cubo3d{
+    margin-top: -17%;
 
-#ame:hover{
-  color: blue !important;
-}
-
-
-.header{
-  width: 100vw;
-background-color: red;
-  height: 30vw;
- padding: 2vw;
- background-size: 100vw;
-}
-.body{
-  width: 100vw;
-background-color: red;
-  height: 30vw;
- padding: 2vw;
- background-size: 100vw;
 }
 .card{
-  justify-content: center;
+margin-top: -3vw !important;
+    background-image: url(IMG/anas-alshanti-feXpdV001o4-unsplash.jpg);
+    background-size: 100vw;
+    height: 50vw;
+
+color: white !important;
+margin-top: 5%;
+}
+
+
+
+.card-img-top{
+    margin-top: 10vw;
+        border-radius: 50vw !important;
+        border: solid black 5px;
+        width: 250px;
+        height: 250px;
+        -webkit-border-radius: 50vw !important;
+        -moz-border-radius: 50vw !important;
+        -ms-border-radius: 50vw !important;
+        -o-border-radius: 50vw !important;
+}
+.presentacion{
+    align-items: center !important;
+margin-left: 50vw !important;
+}
+.aside{
+    margin-top: -3%;
+    justify-content: center;
+    text-align: center;
+}
+.enfasis{
+    position: relative;
+    display: inline-block;
+}
+/* Responsive 1920 */
+@media only screen and (max-width: 1920px) {
+
+    .infe{
+    width: 50% !important;
+    text-align: center !important;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+
+.formulario{
+    margin-top: -35% !important;
+    
+}
+/* Responsive 1080 */
+@media only screen and (min-width: 1080px){
+    footer{
+        margin-top: 50%;
+    }
 
 }
-h2{
-  padding: 5vw;
-  text-align: center;}
-.trabajos{  
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr;
+/* Responsive 768 */
+@media only screen and (min-width: 768px){
+    footer
+    {
+        margin-top: 30% !important;
+    }
+    .carrusel{display: block !important;
+        width: 50%;
+        height: 50%;
+    }
+    .pimg{
+        display: none !important;
+    }
+
+}
+
+@media only screen and (min-width: 1px) { 
+    .card{
+        margin-top: -3vw !important;
+            background-image: url(IMG/anas-alshanti-feXpdV001o4-unsplash.jpg);
+            background-size: 100vw;
+            height: 70vw;
+        color: white !important;
+        margin-top: 5%;
+        }
+        footer{
+            margin-top: 35%;
+        }
+        
+        
+        .card-img-top{
+            margin-top: 10vw;
+                border-radius: 50vw !important;
+                border: solid black 5px;
+                width: 150px;
+                height: 150px;
+                -webkit-border-radius: 50vw !important;
+                -moz-border-radius: 50vw !important;
+                -ms-border-radius: 50vw !important;
+                -o-border-radius: 50vw !important;
+        }
+    .carrusel{
+        display: none;
+    }
+    .cartaprincipal{
+text-align: center;
+    }
+
+
+
+    .textocarta{
+        text-align: center;
+    justify-content: center;
+    }
+main{
+    margin-top: 25%;
+
+}
+.imagenfondomain{
+
+}
+h1{text-align: center;}
+.portafolio{ 
+display: flex;
+flex: auto;
+text-align: center;
+
+      }
+  .pimg{
+   margin-bottom: 15%;
+    max-width: 50vw;
+    max-height: 50vw;
   }
 
-  .footer{
-padding: 10vw;
-  }
+
+.formulario{
+max-width: 70%;
+    }
+    .enviarpregunta{
+        width: 50%;
+    }
+
+footer{
+text-align: center;
+}
+.portafolio2{
+    display: none !important;
+}
+}
 
 
-  .zoom {
-    padding: 50px;
-    transition: transform .2s; /* Animation */
-    width: 200px;
+
+/* Efectos */
+/* Acercamiento */
+img.acercamiento {
+    width: 350px;
     height: 200px;
-    margin: 0 auto;
-  }
-  .zoom:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+.acercm {
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+    5-ms-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+}
+/* Efecto zoom */
+img.zoom {
+    width: 350px;
+    height: 200px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+.transition {
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
 
-
-
+/* Efecto cubo 3D */
   .contenedor{
     width: 100vw;
     height: 100vh;
@@ -136,6 +276,51 @@ padding: 10vw;
         transform: none;
     }
 }
+
+/* Fin efecto cubo 3D */
+
+
+#subrayado-color-porta::before{
+    content: "";
+    width: 0%;
+    height: 5px;
+    position:absolute;
+    bottom: 0;
+    z-index: -1;
+    background-color: yellow;
+    animation: var(--animacion-info-personal);
+    -webkit-animation: var(--animacion-info-personal);
+}
+#subrayado-color-info-personal::before{
+    content: "";
+    width: 0%;
+    height: 5px;
+    position:absolute;
+    bottom: 0;
+    z-index: -1;
+    background-color: yellow;
+    animation: var(--animacion-info-personal);
+    -webkit-animation: var(--animacion-info-personal);
+}
+/* efecto subrayado */
+@keyframes subrayado{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+@keyframes subrayado-reverse{
+    0%{
+        width: var(--animacion-width);
+    }
+    100%{
+        width: 0%;
+    }
+}
+
+
 
 
 
